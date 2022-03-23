@@ -1,0 +1,87 @@
+.watchlist_line{
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 5pt;
+    display:flex;
+    justify-content: space-between;
+    margin-top:5pt;
+    padding-right: 3pt;
+    padding-left: 3pt;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.movie_hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  max-width: 100px;
+}
+
+.movie_img {
+  height:auto;
+  display: block;
+}
+
+.movie_content {
+  background-color: gray;
+  color: white;
+  flex: 1;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+  min-Width: 200px;
+}
+
+.movie_add{
+  background:linear-gradient(to bottom, #A9C9FF 0%, #FFBBEC 100%);
+  flex: 0 0 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  writing-mode: vertical-lr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie_add:hover{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

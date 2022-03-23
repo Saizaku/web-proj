@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="watchlist.js" type="module"></script>
+    </head>
+    <body>
+        <div class="hero-body has-text-centered">
+            <div class="column is-centered">
+                <p >Name: <span id="name"></span></p>
+                <p >Date created: <span id="date_created"></span></p>
+            </div>
+            <div id="movies" class="column is-centered">
+                <h2>Movies:</h2>
+            </div>
+            <input type="button" class="button" value="Add movie" id="addMovie"/>
+        </div>
+        <div id="addMovieModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+                    <div id="allMovies"></div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

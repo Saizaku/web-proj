@@ -1,0 +1,13 @@
+/home/sai/web-proj/bin/Debug/net6.0/publish/web-proj
+/home/sai/web-proj/bin/Debug/net6.0/publish/appsettings.Development.json
+/home/sai/web-proj/bin/Debug/net6.0/publish/appsettings.json
+/home/sai/web-proj/bin/Debug/net6.0/publish/web-proj.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/web-proj.runtimeconfig.json
+/home/sai/web-proj/bin/Debug/net6.0/publish/web-proj.pdb
+/home/sai/web-proj/bin/Debug/net6.0/publish/Microsoft.EntityFrameworkCore.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/Microsoft.EntityFrameworkCore.Relational.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/Microsoft.Extensions.Caching.Memory.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/Npgsql.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/sai/web-proj/bin/Debug/net6.0/publish/web-proj.deps.json

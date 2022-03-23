@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="user.js" type="module"></script>
+    </head>
+    <body>
+        <div class="hero-body has-text-centered">
+            <div class="column is-centered">
+                <p>Username: <span id="username"></span></p>
+                <p >Email: <span id="email"></span></p>
+            </div>
+            <input type="button" class="button" value="Edit User" id="editUser"/>
+            <input type="button" class="button" value="Delete User" id="deleteUser"/>
+            <div id="watchlists" class="column is-centered">
+                <h2>Watch lists:</h2>
+            </div>
+            <input type="button" class="button" value="New Watchlist" id="newWatchlist"/>
+        </div>
+        <div id="newWatchlistModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+                    <input class="input is-normal" type="text" placeholder="name" style="width: 33%;" id="name">
+                    <br><br>
+                    <input class="button" id="submitWatchlist" type="button" value="Add watch list">
+                </form>
+            </div>
+        </div>
+        <div id="editUserModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+                    <input class="input is-normal" type="text" style="width: 33%;" id="editUsername">
+                    <br><br>
+                    <input class="input is-normal" type="text" style="width: 33%;" id="editEmail">
+                    <br><br>
+                    <input class="input is-normal" type="password" placeholder="password" style="width: 33%;" id="editPassword">
+                    <br><br>
+                    <input class="button" id="submitUser" type="button" value="Save">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
